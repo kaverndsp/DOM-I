@@ -54,6 +54,9 @@ parent.prepend(newText);
 
 const links = document.getElementsByTagName('a');
 
+for (let i = 0; i < links.length; i++){
+  links[i].style.color = 'green';
+}
 
    links[0].textContent = 'Services';
    links[1].textContent = 'Product';
@@ -61,6 +64,8 @@ const links = document.getElementsByTagName('a');
    links[3].textContent = 'Features';
    links[4].textContent = 'About';
    links[5].textContent = 'Contact';
+
+  
 
    const buttonReplace = document.querySelector('button');
    buttonReplace.textContent = 'Get Started';
@@ -79,8 +84,17 @@ const links = document.getElementsByTagName('a');
    para[2].textContent = 'Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
    para[3].textContent = 'Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
    para[4].textContent = 'Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+   para[5].textContent = '123 Way 456 Street Somewhere, USA';
+   para[6].textContent = '1 (888) 888-8888';
+   para[7].textContent = 'sales@greatidea.io';
+   para[8].textContent = 'Copyright Great Idea! 2018';
 
- 
+   let logoThree = document.getElementById('middle-img')
+
+   logoThree.src = 'img/mid-page-accent.jpg'; 
+
+   
 
 
 
+   
