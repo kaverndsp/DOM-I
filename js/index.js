@@ -52,5 +52,35 @@ newText.textContent = 'DOM Is Awesome';
 const parent = document.querySelector('.cta-text');
 parent.prepend(newText);
 
+const links = document.getElementsByTagName('a');
+
+
+   links[0].textContent = 'Services';
+   links[1].textContent = 'Product';
+   links[2].textContent = 'Vision';
+   links[3].textContent = 'Features';
+   links[4].textContent = 'About';
+   links[5].textContent = 'Contact';
+
+   const buttonReplace = document.querySelector('button');
+   buttonReplace.textContent = 'Get Started';
+
+   const titles = document.querySelectorAll('h4');
+   titles[0].textContent = 'Features';
+   titles[1].textContent = 'About';
+   titles[2].textContent = 'Services';
+   titles[3].textContent = 'Product';
+   titles[4].textContent = 'Vision';
+   titles[5].textContent = 'Contact';
+
+   const para = document.querySelectorAll('p');
+   para[0].textContent = 'Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+   para[1].textContent = 'About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+   para[2].textContent = 'Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+   para[3].textContent = 'Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+   para[4].textContent = 'Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+
+ 
+
 
 
